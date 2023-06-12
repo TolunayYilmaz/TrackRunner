@@ -17,4 +17,5 @@ public class CameraFollowPlayer : MonoBehaviour
         transform.position = sPos;  
         transform.LookAt(lookTarget.position);
     }
+  
 }
